@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Sky light background -->
+  <rect width="100" height="100" rx="20" fill="#E8F4F8"/>
+  
+  <!-- Sunny yellow circle -->
+  <circle cx="50" cy="50" r="38" fill="none" stroke="#FFD93D" stroke-width="3"/>
+  
+  <!-- Crayon blue inner circle -->
+  <circle cx="50" cy="50" r="28" fill="none" stroke="#4A90D9" stroke-width="2.5"/>
+  
+  <!-- Sun shape -->
+  <circle cx="50" cy="50" r="15" fill="#FFD93D" opacity="0.5"/>
+  
+  <!-- Sun rays -->
+  <line x1="50" y1="22" x2="50" y2="12" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+  <line x1="50" y1="78" x2="50" y2="88" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+  <line x1="22" y1="50" x2="12" y2="50" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+  <line x1="78" y1="50" x2="88" y2="50" stroke="#F39C12" stroke-width="3" stroke-linecap="round"/>
+  <line x1="30" y1="30" x2="23" y2="23" stroke="#F39C12" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="70" y1="30" x2="77" y2="23" stroke="#F39C12" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="30" y1="70" x2="23" y2="77" stroke="#F39C12" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="70" y1="70" x2="77" y2="77" stroke="#F39C12" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Smiley face -->
+  <circle cx="44" cy="46" r="2.5" fill="#3A3A3A"/>
+  <circle cx="56" cy="46" r="2.5" fill="#3A3A3A"/>
+  <path d="M42,54 Q50,62 58,54" fill="none" stroke="#3A3A3A" stroke-width="2.5" stroke-linecap="round"/>
+  
+  <!-- Small star bottom right -->
+  <text x="78" y="78" font-size="14" fill="#E85D4A" text-anchor="middle">★</text>
+</svg>

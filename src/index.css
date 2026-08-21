@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  /* Vintage Illustrated Classic Theme */
+  --color-antique-brown: #5a4032;
+  --color-warm-parchment: #f2e4c4;
+  --color-ink-black: #25221e;
+  --color-muted-olive: #68705a;
+  --color-faded-burgundy: #7a3f3f;
+  --color-soft-cream: #faf3e3;
+  --color-pale-parchment: #e8dcc0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f2e4c4;
+  color: #25221e;
+  overflow-x: hidden;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+section[id] {
+  scroll-margin-top: 80px;
+}
+
+/* Vintage paper texture with ink engraving feel */
+.vintage-texture {
+  background-image: url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.05'/%3E%3C/svg%3E");
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f2e4c4;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #5a4032;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7a3f3f;
+}

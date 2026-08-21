@@ -1,0 +1,162 @@
+export const author = {
+  name: "Ryan Nevins",
+  email: "rlnx10x@aol.com",
+  title: "Poet · Artist · Youth Advocate",
+  bio: `Former professional baseball player, Golden Gloves boxer, New York City marathoner, peer counselor and award winning poet from New York City. Ryan is inspired to help kids through his experiences using poetry and art. He has helped many kids through his volunteer work with organizations such as the St. Kevin Care and Share program, Special Olympics and working with kids on an individual basis. Ryan's dream is to make "Shine Kids" into a foundation so he can help kids follow their dreams!`,
+  foundation: "Shinekidsfoundation.com",
+  achievements: [
+    "Former Professional Baseball Player",
+    "Golden Gloves Boxer",
+    "NYC Marathoner",
+    "Award Winning Poet",
+    "Peer Counselor",
+  ],
+};
+
+export const allBooks = [
+  {
+    id: "shine-kids",
+    title: "Shine Kids",
+    subtitle: "You're Talented, Gifted and Blessed — Go Follow Your Dreams!",
+    description: `No matter who you are, you are God's special child, and the Amazing Grace from up above was inspired to create you out of goodness and love. Children can work together and accomplish great things, overcoming all kinds of obstacles. Based on a graffiti piece created behind a grammar school in Auburndale, Queens, in 2008, this illustrated poem encourages kids to believe in themselves and follow their dreams.`,
+    themes: ["Dreams", "Believe", "Inspiration", "Children"],
+    coverFront: "/images/shine-kids.jpg",
+    coverBack: null,
+    hasBackCover: false,
+    purchaseLinks: [
+      {
+        id: "amazon",
+        name: "Amazon",
+        url: "https://www.amazon.com/Talented-Gifted-Blessed-Follow-Dreams-ebook/dp/B0794SCHBM/ref=sr_1_4?dib=eyJ2IjoiMSJ9.YMHP2taodZPbRKN6Y3jAxcOM8T15Lk-ldoMOJUA269B8CGRkLQYE5vMIQT5WIVab.YWktOthXPhXKxiZpGyk1ehHfT651QznE1Hl1bhtXCNY&dib_tag=se&qid=1787346264&refinements=p_27%3ARyan+Lee+Nevins&s=digital-text&sr=1-4&text=Ryan+Lee+Nevins",
+        icon: "shoppingBag",
+        style: "solid",
+      },
+    ],
+    reviews: [
+      {
+        id: 1,
+        name: "Amazon Customer",
+        rating: 5,
+        title: "Great!+❤️+",
+        date: "August 25, 2023",
+        verified: true,
+        text: "Great!+❤️+",
+      },
+      {
+        id: 2,
+        name: "betts",
+        rating: 5,
+        title: "Beautiful book with a great message",
+        date: "December 30, 2016",
+        verified: false,
+        text: "I gave this as a gift to my nephew and he loves reading it with me. It is beautifully written and illustrated. I love that the book embraces all people in every way.",
+      },
+    ],
+  },
+  {
+    id: "cursillo",
+    title: "The Cursillo",
+    subtitle: "How's Your 4th Day?",
+    description: `De Colores! See in color and in light; bring an end to the darkness and to the night. The Cursillo presents a collection of hip-hop poetry inspired by author Ryan Lee Nevins's experience with the Cursillo in 2006, an event that helped restore his faith and radically changed the course of his life. Taking forty topics explored during his session, he spins them out into verses designed to connect with believers.`,
+    themes: ["Faith", "Hip-Hop Poetry", "Christian", "Inspiration"],
+    coverFront: "/images/cursillo.jpg",
+    coverBack: null,
+    hasBackCover: false,
+    purchaseLinks: [
+      {
+        id: "amazon",
+        name: "Amazon",
+        url: "https://www.amazon.com/Cursillo-Hows-Your-4Th-Day-ebook/dp/B09STJX75Q/ref=sr_1_1?dib=eyJ2IjoiMSJ9.YMHP2taodZPbRKN6Y3jAxcOM8T15Lk-ldoMOJUA269B8CGRkLQYE5vMIQT5WIVab.YWktOthXPhXKxiZpGyk1ehHfT651QznE1Hl1bhtXCNY&dib_tag=se&qid=1787346264&refinements=p_27%3ARyan+Lee+Nevins&s=digital-text&sr=1-1&text=Ryan+Lee+Nevins",
+        icon: "shoppingBag",
+        style: "solid",
+      },
+    ],
+    reviews: [
+      {
+        id: 1,
+        name: "Amazon Customer",
+        rating: 5,
+        title: "Great!+❤️+",
+        date: "August 25, 2023",
+        verified: true,
+        text: "Great!+❤️+",
+      },
+    ],
+  },
+  {
+    id: "encouragement-page",
+    title: "The Encouragement Page",
+    subtitle: "Hip-Hop Poetry to Help Kids Shine",
+    description: `We are called to encourage one another and that is what this book does! It lifts our spirits so we can be the best we can be and shine like the sun! The Encouragement Page presents seven hip-hop poetry verses designed to help kids shine and know that they are talented, gifted, and blessed.`,
+    themes: ["Encouragement", "Kids", "Hip-Hop", "Dreams"],
+    coverFront: "/images/encouragement-page.jpg",
+    coverBack: null,
+    hasBackCover: false,
+    purchaseLinks: [
+      {
+        id: "amazon",
+        name: "Amazon",
+        url: "https://www.amazon.com/Encouragement-Page-Ryan-Lee-Nevins-ebook/dp/B09CYKCD9C/ref=sr_1_2?dib=eyJ2IjoiMSJ9.YMHP2taodZPbRKN6Y3jAxcOM8T15Lk-ldoMOJUA269B8CGRkLQYE5vMIQT5WIVab.YWktOthXPhXKxiZpGyk1ehHfT651QznE1Hl1bhtXCNY&dib_tag=se&qid=1787346264&refinements=p_27%3ARyan+Lee+Nevins&s=digital-text&sr=1-2&text=Ryan+Lee+Nevins",
+        icon: "shoppingBag",
+        style: "solid",
+      },
+    ],
+    reviews: [
+      {
+        id: 1,
+        name: "Amazon Customer",
+        rating: 5,
+        title: "Great!+❤️+",
+        date: "August 25, 2023",
+        verified: true,
+        text: "Great!+❤️+",
+      },
+    ],
+  },
+  {
+    id: "character-virtues",
+    title: "The Character Virtues",
+    subtitle: "Poems About 22 Virtues for Children",
+    description: `No matter who you are, you are God's special child. He has provided you with gifts and virtues to use. The Character Virtues shares poems about twenty-two different traits that will support and direct you through good times and bad. This collection of poems for children presents verses designed to teach and guide them toward the real riches of faith.`,
+    themes: ["Virtues", "Children", "Faith", "Guidance"],
+    coverFront: "/images/character-virtues.jpg",
+    coverBack: null,
+    hasBackCover: false,
+    purchaseLinks: [
+      {
+        id: "amazon",
+        name: "Amazon",
+        url: "https://www.amazon.com/Character-Virtues-Ryan-Lee-Nevins-ebook/dp/B08G8MX8WB/ref=sr_1_3?dib=eyJ2IjoiMSJ9.YMHP2taodZPbRKN6Y3jAxcOM8T15Lk-ldoMOJUA269B8CGRkLQYE5vMIQT5WIVab.YWktOthXPhXKxiZpGyk1ehHfT651QznE1Hl1bhtXCNY&dib_tag=se&qid=1787346264&refinements=p_27%3ARyan+Lee+Nevins&s=digital-text&sr=1-3&text=Ryan+Lee+Nevins",
+        icon: "shoppingBag",
+        style: "solid",
+      },
+    ],
+    reviews: [
+      {
+        id: 1,
+        name: "Amazon Customer",
+        rating: 5,
+        title: "Great!+❤️+",
+        date: "August 25, 2023",
+        verified: true,
+        text: "Great!+❤️+",
+      },
+      {
+        id: 2,
+        name: "Navia2",
+        rating: 4,
+        title: "Teaching children virtues",
+        date: "June 11, 2021",
+        verified: true,
+        text: "This book contains virtues for children to learn. It is good for not only Christians but also all little ones who strive to learn goodness. I definitely recommend it!",
+      },
+    ],
+  },
+];
+
+export const navLinks = [
+  { label: "Home", sectionId: "home" },
+  { label: "Books", sectionId: "books" },
+  { label: "About Ryan", sectionId: "about" },
+  { label: "Contact", sectionId: "contact" },
+];
